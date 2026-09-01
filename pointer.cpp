@@ -8,6 +8,7 @@ class box {
     public:
     void setDimension(int x, int y, int z) {
         l = x, b = y, h = z;
+        // this->l = x, this->b = y, this->h = z;
     }
 
     void showDimension() {
