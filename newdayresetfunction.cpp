@@ -12,4 +12,4 @@ void function1() {
 int main() {
     function1();
 }
-// old value automically deleted because destrutor of unique pointer is automatically called .
+// old value automically deleted because destrutor of unique pointer is automatically called . 
