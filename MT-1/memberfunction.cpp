@@ -5,10 +5,10 @@ using namespace std;
 
 class Student
 {
-    int marks;
+    int marks; // data member - A data member is a variable that belongs to an object of the class.
 
 public:
-    void setMarks(int m)
+    void setMarks(int m) // member function
     {
         marks = m;
     }
