@@ -16,3 +16,20 @@ int main() {
 
     return 0;
 }
+
+// with string
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+void showName(const string& name) {
+    cout << "Name: " << name << endl;
+}
+
+int main() {
+    string s = "Prince";
+    showName(s);
+
+    return 0;
+}
